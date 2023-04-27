@@ -1,0 +1,21 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    protocol: smtps
+    username: 2479711422@qq.com
+    password: hyfaxtomhlniebdi
+    port: 465
+    properties:
+      mail:
+        smtp:
+          socketFactort:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+
+logging:
+  file:
+    max-size: 2MB
+    path: C:\\Users\\Administrator\\Desktop\\logs\\weather.log
+  level:
+    root: warn
